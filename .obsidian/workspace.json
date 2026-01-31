@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Projects/Homelab - Reverse Proxy.md",
+                "file": "00-Inbox/Plugins to consider.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Homelab - Reverse Proxy"
+              "title": "Plugins to consider"
             }
           }
         ],
@@ -195,12 +195,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "10604284520f2225",
   "lastOpenFiles": [
     "00-Inbox/New Note.md",
+    "00-Inbox/Plugins to consider.md",
+    "01-Projects/Homelab - Reverse Proxy.md",
     "Untitled.md",
     "03-Resources/Networking.md",
     "03-Resources/Terraform.md",
@@ -213,7 +216,6 @@
     "02-Areas/DevOps.md",
     "02-Areas/Linux.md",
     "01-Projects/Kubernetes Cluster Setup.md",
-    "01-Projects/Homelab - Reverse Proxy.md",
     "01-Projects/Python Fundamentals.md",
     "01-Projects/KubeCraft Career Accelerator.md",
     "03-Resources/Md Formatting Cheat Sheet.md",
