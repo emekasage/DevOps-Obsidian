@@ -38,3 +38,6 @@ brew install commitizen
 ```
 
 
+## Useful links
+- #### Commitizen docs: https://commitizen-tools.github.io/commitizen/
+- #### Commitizen commit spec: https://www.conventionalcommits.org/
