@@ -22,21 +22,35 @@
             }
           },
           {
-            "id": "10604284520f2225",
+            "id": "85cd7f3e8205cec7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Inbox/Plugins to consider.md",
+                "file": "Templates/RNote Temp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plugins to consider"
+              "title": "RNote Temp"
+            }
+          },
+          {
+            "id": "02db2ea28d95ed07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Resources/Git/Commitizen.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Commitizen"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,18 +210,26 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "10604284520f2225",
+  "active": "02db2ea28d95ed07",
   "lastOpenFiles": [
-    "00-Inbox/New Note.md",
+    "Templates/RNote Temp.md",
+    "03-Resources/Git/Commitizen.md",
+    "03-Resources/Git.md",
+    "03-Resources/Git",
+    "00-Inbox/Untitled.md",
+    "00-Inbox/Untitled 1.md",
+    "00-Inbox/Untitled 2.md",
+    "00-Inbox/Untitled 3.md",
     "00-Inbox/Plugins to consider.md",
+    "Templates",
     "01-Projects/Homelab - Reverse Proxy.md",
     "Untitled.md",
     "03-Resources/Networking.md",
     "03-Resources/Terraform.md",
-    "03-Resources/Git.md",
     "03-Resources/Docker.md",
     "03-Resources/Python.md",
     "02-Areas/Career Development.md",
