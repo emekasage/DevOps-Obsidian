@@ -1,4 +1,5 @@
 #### What is Linux?
+
 When your VM is running, there's a program called the *kernel* that's in charge of everything. The kernel
 - Controls the hardware (CPU, memory, disk, network)
 - Manages files
@@ -16,6 +17,7 @@ So there's a gap between the kernel and YOU the user.
 To bridge the gap, we use a ***Shell***. It is a program that bridges that gap
 
 ### Common Shells
+
 - Bash - Bourne Again Shell. the default on most Linux systems
 - Zsh - Z shell. the default on macOS
 - sh - The original Bourne Shell
@@ -32,6 +34,7 @@ output:
 The *Terminal* is the window - the application that displays text and accepts keyboard input e.g. WezTerm, Windows Terminal, macOS Terminal.app, iTerm2, The VMware console window.
 
 ##### Shell vs Terminal 
+
 The ***Shell*** is the program running inside the terminal that interprets your commands. The terminal is the window. The Shell is what's running in that window.
 
 **CLI** stands for Command Line Interface.
@@ -42,12 +45,14 @@ When you see this:
 username@hostname: ~$
 ```
 This is your prompt. It tells you:
+
 - username - who you're logged in as
 - hostname - what computer you're on
 - ~ - where you are (your home directory)
 - $ - You're a normal user
 
 #### Why Linux for DevOps?
+
 - **Servers**: The vast majority of servers run Linux
 - **Containers**: Docker containers are Linux
 - **Cloud**: AWS, GCP, Azure
@@ -55,6 +60,7 @@ This is your prompt. It tells you:
 - **Free & Stable**: No licensing costs + Linux servers run for years without issues
 
 #### What's a Distribution?
+
 Linux is just the kernel. A ***distribution*** packages the kernel with additional software to make a complete OS.
 
 Popular distributions:
@@ -64,3 +70,5 @@ Popular distributions:
 - **Fedora**: Red Hat based
 - **Arch**: For advanced users who want full control
 - **Alpine**: minimal, popular in containers
+
+*Next*: [[installing software]]
