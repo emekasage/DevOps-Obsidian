@@ -69,6 +69,9 @@ Repositories are servers that store packages. When you run `apt install`, it dow
 
 `vim`: text editor
 
+***Previous***: [[shell]]                                                                    ***Next***: [[file system]]
+
+
 
 
 
