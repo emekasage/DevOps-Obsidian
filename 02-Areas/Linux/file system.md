@@ -407,7 +407,7 @@ This works for almost every command.
 - Quick reminder of options`command --help`
 - Don’t know the command name`man -k keyword`
 
-***Previous***: [[installing software]]
+***Previous***: [[installing software]]                            ***Next***: [[viewing & manipulating files]]
 
 
 
