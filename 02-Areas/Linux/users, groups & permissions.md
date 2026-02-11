@@ -423,4 +423,5 @@ The rules are defined in `/etc/sudoers` (don’t edit directly - use `visudo`
 **“Operation not permitted”** - Even sudo can’t do it (immutable file, mounted read-only, etc.)
 
 ---
-***Previous***: [[viewing & manipulating files]]
+***Previous***: [[viewing & manipulating files]]                       ***Next***: [[vi(m)]]
+
