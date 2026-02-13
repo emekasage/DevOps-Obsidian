@@ -110,7 +110,7 @@ busybox vi test.txt
 With just these six commands, you can edit any file anywhere.
 
 ---
-***Previous***: [[users, groups & permissions]]                             ***Next***:
+***Previous***: [[users, groups & permissions]]                             ***Next***: [[i-o & pipes]] 
 
 
 
