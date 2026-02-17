@@ -344,4 +344,4 @@ This creates files named `Alice`, `Bob`, and `Charlie`.
 - `/dev/null` discards output
 
 ---
-***Previous***: [[vi(m)]]                             ***Next***:
+***Previous***: [[vi(m)]]                                     ***Next***: [[processes]]
