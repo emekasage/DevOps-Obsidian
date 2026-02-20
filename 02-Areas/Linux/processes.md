@@ -272,4 +272,4 @@ journalctl -b
 Logs since last boot.
 
 ---
-***Previous***: [[i-o & pipes]]
+***Previous***: [[i-o & pipes]]                                               ***Next***: [[networking and ssh]]
