@@ -50,7 +50,7 @@ Output:
 
 ```
 127.0.0.1       localhost
-127.0.1.1       cato
+127.0.1.1       cato OR caspian OR [your_hostname]
 ```
 
 This file maps hostnames to IP addresses locally. Useful for:
@@ -358,4 +358,4 @@ Copy a directory recursively.
 
 ---
 
-***Previous***: [[processes]]
+***Previous***: [[processes]]                                             ***Next***: [[Tmux]] 
