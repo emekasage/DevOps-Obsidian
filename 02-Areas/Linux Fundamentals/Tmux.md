@@ -197,7 +197,7 @@ Now you have:
 All in one SSH connection, and it survives disconnection.
 
 ---
-***Previous***: [[networking and ssh]]                         
+***Previous***: [[networking and ssh]]                             ***Next***: [[dotfiles & customizations]]
 
 
 
