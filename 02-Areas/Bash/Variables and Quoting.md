@@ -201,7 +201,7 @@ export ENV_VAR="I'm exported"
 **Security Note**: Environment variables are visible via `/proc/<pid>/environ` and `ps e`. For secrets, use files with restricted permissions instead.
 
 ---
-***Previous***: [[Bash Scripting Fundamentals]]
+***Previous***: [[Bash Scripting Fundamentals]]                           ***Next***: [[Parameter Expansion]]
 
 
 
