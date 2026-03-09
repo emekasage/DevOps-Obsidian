@@ -298,7 +298,7 @@ esac
 Case statements are cleaner for multiple choices. You’ll see this pattern in every init script and CLI tool.
 
 ---
-***Previous***: [[Parameter Expansion]]
+***Previous***: [[Parameter Expansion]]                                                      ***Next***: [[Loops]]
 
 
 
