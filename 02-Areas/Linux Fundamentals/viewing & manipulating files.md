@@ -195,4 +195,32 @@ df -h
 ```
 `df` = disk free. Shows all mounted filesystems and their space usage.
 
+---
+#### **Summary**
+
+- `cat` for small files, `less` for large files
+    
+- `head` and `tail` for beginning and end
+    
+- `tail -f` to watch logs in real-time (essential for debugging)
+    
+- `grep` searches file contents - one of the most-used commands
+    
+- `file`, `stat`, `wc` tell you about files
+    
+- `du` for directory sizes, `df` for disk space
+---
+#### **Definitions**
+
+**cat**: Concatenate - display file contents or combine multiple files.
+
+**less**: A pager program for viewing file contents one screen at a time.
+
+**grep**: Global Regular Expression Print - searches for patterns in files.
+
+**Pipe**: The `|` character that sends output from one command to another.
+
+**Regular Expression**: A pattern-matching syntax for searching text (also called “regex”).
+
+---
 ***Previous***: [[file system]]                                          ***Next***: [[users, groups & permissions]]

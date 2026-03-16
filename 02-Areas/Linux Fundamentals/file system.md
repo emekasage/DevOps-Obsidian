@@ -55,7 +55,6 @@ cd -
 ```
 
 #### List Directory Contents
-
 ```
 ls
 ```
@@ -400,13 +399,63 @@ mkdir --help
 
 This works for almost every command.
 
+---
 #### **When to Use Which**
 
-- SituationUseFull documentation for a command`man command`
-- Shell builtin (cd, type, help, etc.)`help command`
-- Quick reminder of options`command --help`
-- Don’t know the command name`man -k keyword`
+Situation                                                      Use
+- Full documentation for a command - `man command`
+- Shell builtin (cd, type, help, etc.) - `help command`
+- Quick reminder of options - `command --help`
+- Don’t know the command name - `man -k keyword`
 
+---
+#### **Practice**
+
+```
+man find          # The find command has many options
+help read         # read is a bash builtin
+grep --help       # Quick overview of grep options
+man -k permission # Find commands related to permissions
+```
+
+---
+#### **Summary**
+
+- Linux has a single directory tree starting at `/`
+    
+- Key directories: `/home` (your files), `/etc` (config), `/var` (logs)
+    
+- Use `pwd` to see where you are, `cd` to move, `ls` to list
+    
+- `mkdir`, `touch`, `cp`, `mv`, `rm` for file operations
+    
+- `find` searches the file system, `locate` uses a database
+    
+- `type` is better than `which` for understanding commands
+    
+- Use `man` for documentation, `help` for shell builtins, `--help` for quick reference
+---
+#### **Definitions**
+
+**Root Directory**: The top of the file system hierarchy, represented by `/`.
+
+**Absolute Path**: A path starting from root (`/home/user/file.txt`).
+
+**Relative Path**: A path relative to current location (`./file.txt` or `../other/`).
+
+**Working Directory**: The directory you’re currently in.
+
+**Hidden File**: A file whose name starts with `.` - not shown by default in `ls`.
+
+**Recursive**: Operating on a directory and all its contents, including subdirectories.
+
+**Home Directory**: Your personal directory, usually `/home/username`, abbreviated as `~`.
+
+**Man Page**: The manual page for a command, accessed via `man`. The primary documentation source on Unix/Linux systems.
+
+**Shell Builtin**: A command built directly into the shell (like `cd`, `type`, `help`) rather than an external program.
+
+---
 ***Previous***: [[installing software]]                            ***Next***: [[viewing & manipulating files]]
 
 

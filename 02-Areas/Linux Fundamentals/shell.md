@@ -16,7 +16,7 @@ So there's a gap between the kernel and YOU the user.
 
 To bridge the gap, we use a ***Shell***. It is a program that bridges that gap
 
-### Common Shells
+#### Common Shells
 
 - Bash - Bourne Again Shell. the default on most Linux systems
 - Zsh - Z shell. the default on macOS
