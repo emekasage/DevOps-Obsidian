@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Areas/Linux Fundamentals/viewing & manipulating files.md",
+                "file": "02-Areas/Linux Fundamentals/i-o & pipes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "viewing & manipulating files"
+              "title": "i-o & pipes"
             }
           }
         ],
@@ -258,6 +258,10 @@
   },
   "active": "8173a478a577b0f8",
   "lastOpenFiles": [
+    "02-Areas/Linux Fundamentals/viewing & manipulating files.md",
+    "02-Areas/Linux Fundamentals/i-o & pipes.md",
+    "02-Areas/Linux Fundamentals/vi(m).md",
+    "02-Areas/Linux Fundamentals/users, groups & permissions.md",
     "02-Areas/Linux Fundamentals/file system.md",
     "02-Areas/Linux Fundamentals/shell.md",
     "02-Areas/Bash/Unix Filters and Editor Integration.md",
@@ -273,19 +277,15 @@
     "02-Areas/Bash/Parameter Expansion.md",
     "03-Resources/Git/Git Fundamentals.md",
     "02-Areas/Bash/Bash Scripting Fundamentals.md",
-    "02-Areas/Linux Fundamentals/viewing & manipulating files.md",
     "02-Areas/Bash",
     "02-Areas/Linux Fundamentals/processes.md",
     "02-Areas/Linux Fundamentals/networking and ssh.md",
     "02-Areas/Linux Fundamentals/dotfiles & customizations.md",
     "03-Resources/Creating a VM on MacOS.md",
-    "02-Areas/Linux Fundamentals/vi(m).md",
     "03-Resources/Git/Commitizen.md",
     "03-Resources/Linux Terminal Commands.md",
     "01-Projects/Python Fundamentals.md",
     "00-Inbox/Plugins to consider.md",
-    "02-Areas/Linux Fundamentals/users, groups & permissions.md",
-    "02-Areas/Linux Fundamentals/i-o & pipes.md",
     "02-Areas/Linux Fundamentals",
     "03-Resources/Untitled",
     "03-Resources/Git",

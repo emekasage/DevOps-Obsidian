@@ -106,6 +106,8 @@ busybox vi test.txt
 5. `dd` - Delete a line
     
 6. `u` - Undo
+7. `gg` - go to top of file
+8. `shift G` - go to the bottom of file
 
 With just these six commands, you can edit any file anywhere.
 

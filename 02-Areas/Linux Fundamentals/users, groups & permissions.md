@@ -165,7 +165,7 @@ Let’s break this down:
 ##### The Permission Groups
 Every file has three permission sets:
 
-PositionWhoDescription
+Position.                   Who                       Description
 - Characters  2-4: Owner - The user who owns the file
 - Characters 5-7: Group Users in the file’s group
 - Characters 8-10: Others Everyone else
@@ -423,5 +423,43 @@ The rules are defined in `/etc/sudoers` (don’t edit directly - use `visudo`
 **“Operation not permitted”** - Even sudo can’t do it (immutable file, mounted read-only, etc.)
 
 ---
-***Previous***: [[viewing & manipulating files]]                       ***Next***: [[vi(m)]]
+#### **Summary**
 
+- Every file has an owner (user), group, and permissions
+    
+- `adduser` creates users, `deluser` removes them
+    
+- Permissions: read ®, write (w), execute (x)
+    
+- Three sets: owner, group, others
+    
+- `chmod 600` = private, `chmod 644` = readable by all
+    
+- `sudo -u user` runs commands as another user
+    
+- Root can do anything - use `sudo` instead of being root
+---
+#### **Definitions**
+
+**User**: An account that can log in and own files.
+
+**Group**: A collection of users that can share file access.
+
+**UID**: User ID - a number identifying a user (root is 0).
+
+**GID**: Group ID - a number identifying a group.
+
+**Permissions**: Rules controlling who can read, write, or execute a file.
+
+**Owner**: The user who owns a file (can change its permissions).
+
+**Root**: The superuser with UID 0, having full system access.
+
+**Sudo**: “Superuser do” - temporarily elevate privileges for one command.
+
+**chmod**: Change mode - modify file permissions.
+
+**chown**: Change owner - modify file ownership
+
+---
+***Previous***: [[viewing & manipulating files]]                                                                  ***Next***: [[vi(m)]]
