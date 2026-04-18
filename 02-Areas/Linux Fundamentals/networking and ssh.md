@@ -195,6 +195,8 @@ Components:
 
 ##### Generate SSH Keys
 
+On your machine (not VMWare) terminal (not ubuntu server), cd into the `/tmp` directory. Create a directory `mkdir local` then run the command below
+
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
@@ -217,8 +219,12 @@ This creates:
 
 ##### Copy Key to Server
 
+Run this on your machine terminal, still inside the `/tmp/local` directory not server (ubuntu)
+
 ```
 ssh-add ~/.ssh/id_ed25519
+
+verify using ssh-add -L that your key is actually here before running the below command
 
 ssh-copy-id sagecode@192.168.248.128
 ```
@@ -231,9 +237,23 @@ Manual method (if `ssh-copy-id` isn’t available):
 cat ~/.ssh/id_ed25519.pub | ssh sagecode@192.168.248.128 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
 ```
 
+##### Verify Key is now on Server
+
+On your server (ubuntu or otherwise), 
+- run `ls -la`, 
+- cd into the `.ssh` directory. 
+- `ls` and confirm the `authorized_keys` file
+- `cat authorized_keys`
+
 ##### Verify Key Authorization is Working
 
-After copying your key, verify it’s actually being used. Use verbose mode on your local:
+On your local, try to ssh into your server and verify you don't need a password anymore
+
+```
+ssh sagecode@192.168.248.128
+```
+
+After copying your key, verify it’s actually being used. Use verbose mode on your local (machine terminal):
 
 ```
 ssh -v sagecode@192.168.248.128
@@ -262,7 +282,7 @@ If you see `Authentication succeeded (password)` instead, your key isn’t set
 
 Once key authentication works, disable password login for better security. This prevents brute force attacks.
 
-On the **server** (the machine you SSH into):
+On the **server** (the machine you SSH into / ubuntu server):
 
 ```
 sudo vi /etc/ssh/sshd_config
@@ -280,7 +300,7 @@ If the lines have `#` at the start, remove the `#` to uncomment them.
 Restart the SSH service:
 
 ```
-sudo systemctl restart sshd
+sudo systemctl restart ssh
 ```
 
 **Test before disconnecting:** Open a new terminal and verify you can still connect:
@@ -293,7 +313,7 @@ If key auth fails now, you’ll be locked out. That’s why you test with a sepa
 
 ##### SSH Config File
 
-Create `~/.ssh/config` on your local:
+Create `~/.ssh/config` on your local (machine terminal):
 
 ```
 vi ~/.ssh/config
@@ -302,9 +322,9 @@ vi ~/.ssh/config
 Add:
 
 ```
-Host cato
+Host caspian
     HostName 192.168.248.128
-    User yourusername
+    User yourusername (sagecode)
     IdentityFile ~/.ssh/id_ed25519
 ```
 
@@ -357,5 +377,28 @@ Copy a directory recursively.
 4. **Keep private keys private** - Never share, never commit to git
 
 ---
+#### **Summary**
 
-***Previous***: [[processes]]                                             ***Next***: [[Tmux]] 
+- `ip addr` shows network interfaces, `ip route` shows routing
+    
+- `/etc/hosts` maps hostnames to IPs locally
+    
+- `ping` tests connectivity, `curl`/`wget` download files
+    
+- `ss -tuln` shows listening ports
+    
+- SSH keys are more secure than passwords
+    
+- `ssh-keygen` creates keys, `ssh-copy-id` installs them
+    
+- `ssh -v` shows which authentication method is used
+    
+- Disable password auth in `/etc/ssh/sshd_config` after key auth works
+    
+- `~/.ssh/config` simplifies SSH commands
+    
+- `scp` copies files securely between machines
+
+---
+
+***Previous***: [[processes]]                                                                   ***Next***: [[Tmux]] 

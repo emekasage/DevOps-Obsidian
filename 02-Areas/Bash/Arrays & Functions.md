@@ -149,6 +149,17 @@ print_numbered "${tasks[@]}"
 ```
 
 ---
+#### **Summary**
+
+- **Functions**: `name() { ... }` - reusable code blocks
+    
+- **Local variables**: `local var=value` - keep variables inside functions
+    
+- **Return values**: Exit codes for success/failure, `echo` for data
+    
+- **Arrays**: `arr=("a" "b")`, loop with `for x in "${arr[@]}"`
+
+---
 ***Previous***: [[Loops]]                                                                ***Next***: [[Unix Filters and Editor Integration]]
 
 

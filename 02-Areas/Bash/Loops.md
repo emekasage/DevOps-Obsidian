@@ -181,6 +181,38 @@ done < <(find . -name "*.txt" -print0)
 The `-print0` and `-d ''` handle filenames with spaces AND newlines safely. This is the professional pattern.
 
 ---
+#### **Summary**
+
+- **For loops**: `for item in list; do ... done` - iterate over lists
+    
+- **While loops**: `while condition; do ... done` - run while true
+    
+- **Reading files**: `while read -r line; do ... done < file` - line by line
+    
+- **Break**: Exit loop immediately
+    
+- **Continue**: Skip to next iteration
+    
+- **File globs**: Use `*.txt` not `$(ls *.txt)` - handles spaces correctly
+    
+- **Check file exists**: `[[ -f "$file" ]] || continue` in loops
+    
+- **Always use** `read -r`: Prevents backslash interpretation
+
+---
+#### **Definition**s
+
+**For loop**: Iterates over a list of items.
+
+**While loop**: Repeats while a condition is true.
+
+**Break**: Exits a loop immediately.
+
+**Continue**: Skips to the next loop iteration.
+
+**IFS**: Internal Field Separator - controls word splitting.
+
+---
 ***Previous***: [[Conditionals]]                                                                    ***Next***: [[Arrays & Functions]]
 
 

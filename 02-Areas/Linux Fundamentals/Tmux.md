@@ -1,6 +1,6 @@
 Creation date: Sunday, February 22nd 2026, 5:37:20 pm
 
-##### Why Tmux?
+##### Why Tmux (Terminal Multiplexer)?
 
 **The Problem**
 

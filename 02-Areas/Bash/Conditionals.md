@@ -298,6 +298,27 @@ esac
 Case statements are cleaner for multiple choices. You’ll see this pattern in every init script and CLI tool.
 
 ---
+#### **Summary**
+
+- **Exit codes**: 0 = success, non-zero = failure, check with `$?`
+    
+- **&& (AND)**: Run next command only if previous succeeded
+    
+- **|| (OR)**: Run next command only if previous failed
+    
+- **[[ ]]**: Always use double brackets for tests (NEVER single brackets)
+    
+- **String tests**: `==`, `!=`, `-z`, `-n`
+    
+- **Numeric tests**: `-eq`, `-ne`, `-gt`, `-lt`, `-ge`, `-le`
+    
+- **File tests**: `-f`, `-d`, `-e`, `-r`, `-w`, `-x`
+    
+- **command -v**: Check if a command exists (NOT `which`)
+    
+- **case statements**: Pattern matching with `case/esac`
+
+---
 ***Previous***: [[Parameter Expansion]]                                                      ***Next***: [[Loops]]
 
 

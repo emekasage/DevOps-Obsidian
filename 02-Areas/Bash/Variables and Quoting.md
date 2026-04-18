@@ -143,7 +143,12 @@ echo "Number of arguments: $#"
 ./args hello world
 ```
 
-VariableMeaning`$0`Script name`$1`, `$2`, …Positional arguments`$@`All arguments (as separate words) - **USE THIS**`$*`All arguments (as single string) - **AVOID**`$#`Number of arguments
+VariableMeaning
+`$0` - Script name
+`$1`, `$2`, … - Positional arguments
+`$@` - All arguments (as separate words) - **USE THIS**
+`$*` - All arguments (as single string) - **AVOID**
+`$#` - Number of arguments
 
 ### `$@` vs `$*`
 
