@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Inbox/Building Docker Images Dockerfiles.md",
+                "file": "02-Areas/Containers/Building Docker Images Dockerfiles.md",
                 "mode": "source",
                 "source": false
               },
@@ -232,7 +232,7 @@
   "lastOpenFiles": [
     "02-Areas/Containers/Installation & First Step.md",
     "02-Areas/Containers/Container Lifecycle Management.md",
-    "00-Inbox/Building Docker Images Dockerfiles.md",
+    "02-Areas/Containers/Building Docker Images Dockerfiles.md",
     "02-Areas/Containers/Intro to Containers & How They Work.md",
     "02-Areas/Linux Fundamentals/vi(m).md",
     "02-Areas/Bash/Variables and Quoting.md",
