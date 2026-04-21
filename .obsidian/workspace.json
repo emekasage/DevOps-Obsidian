@@ -41,12 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Areas/Containers/Container Lifecycle Management.md",
+                "file": "02-Areas/Containers/Security & Best Practices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Container Lifecycle Management"
+              "title": "Security & Best Practices"
+            }
+          },
+          {
+            "id": "eca5f70b80220a41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-Areas/Containers/Multi-Container Applications.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Multi-Container Applications"
             }
           },
           {
@@ -228,13 +242,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "573e1552e4c435fc",
+  "active": "eca5f70b80220a41",
   "lastOpenFiles": [
-    "02-Areas/Containers/Installation & First Step.md",
     "02-Areas/Containers/Container Lifecycle Management.md",
-    "02-Areas/Containers/Building Docker Images Dockerfiles.md",
     "02-Areas/Containers/Intro to Containers & How They Work.md",
+    "02-Areas/Containers/Security & Best Practices.md",
+    "02-Areas/Containers/Multi-Container Applications.md",
+    "02-Areas/Linux Fundamentals/file system.md",
     "02-Areas/Linux Fundamentals/vi(m).md",
+    "02-Areas/Linux Fundamentals/viewing & manipulating files.md",
+    "02-Areas/Containers/Installation & First Step.md",
+    "02-Areas/Containers/Building Docker Images Dockerfiles.md",
     "02-Areas/Bash/Variables and Quoting.md",
     "00-Inbox/Containers.md",
     "02-Areas/Kubernetes.md",
@@ -247,17 +265,13 @@
     "02-Areas/Bash/Bash Scripting Fundamentals.md",
     "03-Resources/Git/Git Fundamentals.md",
     "02-Areas/Linux Fundamentals/Tmux.md",
-    "02-Areas/Linux Fundamentals/file system.md",
     "02-Areas/Linux Fundamentals/shell.md",
     "02-Areas/Linux Fundamentals/networking and ssh.md",
     "02-Areas/Linux Fundamentals/processes.md",
     "02-Areas/Linux Fundamentals/installing software.md",
-    "02-Areas/Linux Fundamentals/viewing & manipulating files.md",
     "02-Areas/Linux Fundamentals/users, groups & permissions.md",
-    "03-Resources/Bash.md",
     "02-Areas/Containers",
     "02-Areas/Bash",
-    "02-Areas/Linux Fundamentals/dotfiles & customizations.md",
     "02-Areas/Linux Fundamentals",
     "03-Resources/Untitled",
     "03-Resources/Git",
