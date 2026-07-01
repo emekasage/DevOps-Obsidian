@@ -55,7 +55,7 @@ Nested bullets:
 
 ## Checklists (Tasks)
 
-- [ ] Not started
+- [x] Not started
 - [x] Completed
 - [ ] In progress
 

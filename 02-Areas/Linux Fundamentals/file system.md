@@ -402,11 +402,12 @@ This works for almost every command.
 ---
 #### **When to Use Which**
 
-Situation                                                      Use
-- Full documentation for a command - `man command`
-- Shell builtin (cd, type, help, etc.) - `help command`
-- Quick reminder of options - `command --help`
-- Don’t know the command name - `man -k keyword`
+| Situation                            | Use              |
+| ------------------------------------ | ---------------- |
+| Full documentation for a command     | `man command`    |
+| Shell builtin (cd, type, help, etc.) | `help command`   |
+| Quick reminder of options            | `command --help` |
+| Don’t know the command name          | `man -k keyword` |
 
 ---
 #### **Practice**
@@ -417,6 +418,35 @@ help read         # read is a bash builtin
 grep --help       # Quick overview of grep options
 man -k permission # Find commands related to permissions
 ```
+
+---
+#### **Commands Used**
+
+| Commands                    | Description                  |
+| --------------------------- | ---------------------------- |
+| `pwd`                       | Print working directory      |
+| `cd directory`              | Change to directory          |
+| `cd` or `cd ~`              | Go to home directory         |
+| `cd ..`                     | Go up one level              |
+| `cd -`                      | Go to previous directory     |
+| `ls`                        | List directory contents      |
+| `tree`                      | Visual directory tree        |
+| `tree -L n`                 | Limit tree depth to n levels |
+| `mkdir name`                | Create a directory           |
+| `touch file`                | Create empty file            |
+| `cp src dest`               | Copy file                    |
+| `cp -r src dest`            | Copy directory recursively   |
+| `mv src dest`               | Move or rename file          |
+| `rm file`                   | Delete file                  |
+| `rm -r dir`                 | Delete directory recursively |
+| `rm -i file`                | Delete with confirmation     |
+| `rmdir dir`                 | Remove empty directory       |
+| `find path -name "pattern"` | Find files by name           |
+| `locate name`               | Fast search using database   |
+| `man command`               | View manual page             |
+| `man -k keyword`            | Search man pages             |
+| `man N command`             | View specific section        |
+| `command --help`            | Quick command help           |
 
 ---
 #### **Summary**
