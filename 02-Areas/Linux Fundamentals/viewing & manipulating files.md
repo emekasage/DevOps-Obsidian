@@ -14,15 +14,16 @@ less /var/log/syslog
 ```
 `less` lets you scroll through the file
 
-***KeyAction***
-`Space` or `f`Forward one page
-`b`Back one page
-`↑` / `↓`Line by line
-`g`Go to beginning
-`G`Go to end
-`/pattern`Search forward
-`n`Next search result
-`q`Quit
+| Key            | Action             |
+| -------------- | ------------------ |
+| `Space` or `f` | Forward one page   |
+| `b`            | Back one page      |
+| `↑` / `↓`      | Line by line       |
+| `g`            | Go to beginning    |
+| `G`            | Go to end          |
+| `/pattern`     | Search forward     |
+| `n`            | Next search result |
+| `q`            | Quit               |
 
 > **Tip**: `less` is more powerful than `more`. The joke is “less is more”.
 
@@ -166,7 +167,7 @@ Output:
 ```
   32   54 1842 /etc/passwd
 ```
-That’s: 32 lines, 54 words, 1842 characters.
+That’s: 32 lines, 54 words, 1842 bytes.
 
 ```
 wc -l /etc/passwd

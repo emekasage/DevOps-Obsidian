@@ -380,7 +380,7 @@ sudo cat /etc/shadow   # View passwords file (needs root)
 
 After entering your password, sudo remembers for a few minutes. You won’t be asked again immediately.
 
-To force sudo to forget:
+##### To force sudo to forget:
 
 ```
 sudo -k
@@ -396,6 +396,12 @@ This gives you a root shell. Your prompt changes from `$` to `#`.
 Type `exit` to return to your normal user.
 
 > **Warning**: Be extremely careful in a root shell. Don’t leave it open.
+
+##### To switch user after creating one:
+
+```
+sudo su testuser
+```
 
 ##### Who Can Use Sudo?
 
@@ -418,7 +424,6 @@ The rules are defined in `/etc/sudoers` (don’t edit directly - use `visudo`
 2. Change the file permissions, or
     
 3. You’re trying to access something you shouldn’t
-    
 
 **“Operation not permitted”** - Even sudo can’t do it (immutable file, mounted read-only, etc.)
 
