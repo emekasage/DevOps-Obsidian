@@ -1,4 +1,13 @@
 Creation date: Wednesday, February 11th 2026, 3:29:43 am
+#### **Standard Streams**
+
+Every program has three standard streams
+
+| Stream | Name            | File Descriptor | Purpose                                   |
+| ------ | --------------- | --------------- | ----------------------------------------- |
+| stdin  | Standard Input  | 0               | Where input comes from (usually keyboard) |
+| stdout | Standard Output | 1               | Where normal output goes (usually screen) |
+| stderr | Standard Error  | 2               | Where error messages go (usually screen)  |
 
 ```
 ls /nonexistent

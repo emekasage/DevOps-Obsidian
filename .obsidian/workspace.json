@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Areas/Linux Fundamentals/users, groups & permissions.md",
+                "file": "02-Areas/Linux Fundamentals/i-o & pipes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "users, groups & permissions"
+              "title": "i-o & pipes"
             }
           },
           {
@@ -244,6 +244,8 @@
   },
   "active": "0231a6ebd04b6213",
   "lastOpenFiles": [
+    "02-Areas/Linux Fundamentals/vi(m).md",
+    "02-Areas/Linux Fundamentals/users, groups & permissions.md",
     "02-Areas/Linux Fundamentals/viewing & manipulating files.md",
     "02-Areas/Linux Fundamentals/file system.md",
     "02-Areas/Containers/Container Lifecycle Management.md",
@@ -252,7 +254,6 @@
     "02-Areas/Linux Fundamentals/installing software.md",
     "02-Areas/Linux Fundamentals/shell.md",
     "02-Areas/Linux Fundamentals/dotfiles & customizations.md",
-    "02-Areas/Linux Fundamentals/users, groups & permissions.md",
     "02-Areas/Containers/Multi-Container Applications.md",
     "02-Areas/Containers/Intro to Containers & How They Work.md",
     "02-Areas/Containers/Installation & First Step.md",
@@ -260,7 +261,6 @@
     "03-Resources/Md Formatting Cheat Sheet.md",
     "03-Resources/Networking.md",
     "03-Resources/Linux Resources.md",
-    "02-Areas/Linux Fundamentals/vi(m).md",
     "02-Areas/Bash/Variables and Quoting.md",
     "00-Inbox/Containers.md",
     "02-Areas/Kubernetes.md",

@@ -111,6 +111,29 @@ busybox vi test.txt
 
 With just these six commands, you can edit any file anywhere.
 
+#### **Navigation**
+
+| Key | Direction |
+| --- | --------- |
+| `h` | Left      |
+| `j` | Down      |
+| `k` | Up        |
+| `l` | Right     |
+Arrow keys also work. But `hjkl` keeps your hands on the home row.
+#### **Entering Insert Mode**
+
+| Key | Action              |
+| --- | ------------------- |
+| `i` | Insert at cursor    |
+| `o` | Open new line below |
+#### **Deleting**
+
+| Key  | Action                        |
+| ---- | ----------------------------- |
+| `x`  | Delete character under cursor |
+| `dd` | Delete entire line            |
+
+
 ---
 ***Previous***: [[users, groups & permissions]]                             ***Next***: [[i-o & pipes]] 
 
