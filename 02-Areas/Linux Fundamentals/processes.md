@@ -272,4 +272,42 @@ journalctl -b
 Logs since last boot.
 
 ---
+### **Summary**
+
+- Every running program is a process with a PID
+    
+- `ps aux` shows all processes, `htop` is interactive
+    
+- `kill PID` stops a process, `kill -9` forces it
+    
+- Run commands in background with `&`, bring back with `fg`
+    
+- `systemctl` manages services: start, stop, enable, status
+    
+- `journalctl` views system logs
+    
+- `free -h`, `lscpu`, `lsblk` show system resources
+
+---
+### **Definitions**
+
+**Process**: A running instance of a program.
+
+**PID**: Process ID - a unique number identifying a process.
+
+**Daemon**: A background process that runs continuously (like a service).
+
+**Signal**: A message sent to a process (SIGTERM, SIGKILL, etc.).
+
+**SIGTERM**: Signal 15 - polite request to terminate.
+
+**SIGKILL**: Signal 9 - force termination (cannot be ignored).
+
+**systemd**: The init system that manages services on modern Linux.
+
+**Service**: A background program managed by systemd (web server, SSH, etc.).
+
+**journalctl**: Tool for viewing systemd logs.
+
+---
 ***Previous***: [[i-o & pipes]]                                               ***Next***: [[networking and ssh]]

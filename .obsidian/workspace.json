@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Areas/Linux Fundamentals/i-o & pipes.md",
+                "file": "02-Areas/Linux Fundamentals/Tmux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "i-o & pipes"
+              "title": "Tmux"
             }
           },
           {
@@ -244,6 +244,8 @@
   },
   "active": "0231a6ebd04b6213",
   "lastOpenFiles": [
+    "02-Areas/Linux Fundamentals/processes.md",
+    "02-Areas/Linux Fundamentals/i-o & pipes.md",
     "02-Areas/Linux Fundamentals/vi(m).md",
     "02-Areas/Linux Fundamentals/users, groups & permissions.md",
     "02-Areas/Linux Fundamentals/viewing & manipulating files.md",
@@ -265,11 +267,9 @@
     "00-Inbox/Containers.md",
     "02-Areas/Kubernetes.md",
     "02-Areas/Bash/Unix Filters and Editor Integration.md",
-    "02-Areas/Linux Fundamentals/i-o & pipes.md",
     "02-Areas/Bash/Arrays & Functions.md",
     "02-Areas/Bash/Parameter Expansion.md",
     "02-Areas/Bash/Loops.md",
-    "02-Areas/Bash/Conditionals.md",
     "02-Areas/Containers",
     "02-Areas/Bash",
     "02-Areas/Linux Fundamentals",

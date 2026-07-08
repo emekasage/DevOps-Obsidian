@@ -197,6 +197,38 @@ Now you have:
 All in one SSH connection, and it survives disconnection.
 
 ---
+#### **Summary**
+
+- Tmux keeps sessions alive when you disconnect
+    
+- Start with `tmux`, detach with `Ctrl+b d`, reattach with `tmux attach`
+    
+- Use named sessions: `tmux new -s name`
+    
+- Windows are tabs: `Ctrl+b c` creates, `Ctrl+b n/p` navigates
+    
+- Panes split windows: `Ctrl+b %` vertical, `Ctrl+b "` horizontal
+    
+- The prefix `Ctrl+b` starts all tmux commands
+
+---
+#### **Definitions**
+
+**Tmux**: Terminal multiplexer - manages persistent terminal sessions.
+
+**Session**: A tmux instance that persists even when disconnected.
+
+**Window**: A tab within a tmux session.
+
+**Pane**: A split within a tmux window.
+
+**Prefix Key**: `Ctrl+b` - the key combination that starts tmux commands.
+
+**Detach**: Disconnect from tmux while leaving the session running.
+
+**Attach**: Reconnect to a running tmux session.
+
+---
 ***Previous***: [[networking and ssh]]                             ***Next***: [[dotfiles & customizations]]
 
 
