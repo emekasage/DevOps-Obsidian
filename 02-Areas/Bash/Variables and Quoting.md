@@ -185,12 +185,19 @@ Every command returns an exit code. This is how `&&` and `||` work. You’ll
 
 ##### Other Special Variables
 
-**Variable Meaning**
-`$?`Exit code of last command
-`$$`Current shell’s process ID
-`$USER`Current username
-`$HOME`Home directory
-`$PWD`Current directory
+| Variable           | Meaning                             |
+| ------------------ | ----------------------------------- |
+| `$?`               | Exit code of last command           |
+| `$$`               | Current shell’s process ID          |
+| `$USER`            | Current username                    |
+| `$HOME`            | Home directory                      |
+| `$PWD`             | Current directory                   |
+| `variable=value`   | Assign variable (no spaces)         |
+| `$var` or `${var}` | Access variable value               |
+| `$0, $1, $2`       | Script name and arguments           |
+| `$@`               | All arguments (as separate strings) |
+| `$#`               | Number of arguments                 |
+| `export VAR=value` | Create environment variable         |
 
 ---
 #### **Environment Variables**
