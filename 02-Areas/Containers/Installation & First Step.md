@@ -256,8 +256,9 @@ docker run -d \
 
 The postgres image reads these variables to configure the database.
 
-#### **From a File (–env-file)**
-
+***To check the info on an env in a container***
+```
+docker exec container-name env
 ```
 # Create .env file
 echo "POSTGRES_PASSWORD=secret" > db.env
@@ -342,6 +343,30 @@ docker system prune -a
 ```
 
 Removes all stopped containers, unused networks, unused images. Use with caution.
+
+---
+### Commands Used
+
+| Command                        | Description                       |
+| ------------------------------ | --------------------------------- |
+| `docker run IMAGE`             | Create and start a container      |
+| `docker run -d IMAGE`          | Run in detached mode (background) |
+| `docker run -it IMAGE CMD`     | Run interactively with terminal   |
+| `docker run --name NAME IMAGE` | Run with specific name            |
+| `docker run --rm IMAGE`        | Remove container on exit          |
+| `docker run -p 8080:80 IMAGE`  | Publish port (host:container)     |
+| `docker run -e VAR=val IMAGE`  | Set environment variable          |
+| `docker run -v src:dst IMAGE`  | Mount volume                      |
+| `docker ps`                    | List running containers           |
+| `docker ps -a`                 | List all containers               |
+| `docker logs CONTAINER`        | View container logs               |
+| `docker logs -f CONTAINER`     | Follow logs                       |
+| `docker stop CONTAINER`        | Stop a container                  |
+| `docker rm CONTAINER`          | Remove a container                |
+| `docker images`                | List images                       |
+| `docker pull IMAGE`            | Download an image                 |
+| `docker rmi IMAGE`             | Remove an image                   |
+| `docker system prune -a`       | Remove all unused data            |
 
 ---
 ### Summary

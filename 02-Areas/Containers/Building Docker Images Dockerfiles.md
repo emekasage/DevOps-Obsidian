@@ -448,7 +448,7 @@ docker build --no-cache -t myapp .
 ---
 ### Tagging Best Practices
 
-#### **Use Semantic Versioning**
+#### **Use Semantic Versioning** (https://semver.org/)
 
 ```
 docker build -t myapp:1.0.0 .      # Points to latest 1.0.x

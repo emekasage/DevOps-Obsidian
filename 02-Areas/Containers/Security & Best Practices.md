@@ -274,7 +274,7 @@ Health checks let Docker know if your container is healthy. Essential for produc
 ```
 FROM nginx:1.28
 
-# Install curl for helth checks
+# Install curl for health checks
 RUN apt-get update && \
     apt-get install -y --no-install-recommends curl && \
     rm -rf /var/lib/apt/lists/*
